@@ -28,7 +28,7 @@ namespace Review_Classes
             GPA = 0.0;
             BursarBalance = 0.0;
         }
-
+      
         /// <summary>
         /// Overloaded constructor for the Student class that accepts the Sooner ID, FirstName, LastName and BursarBalance
         /// </summary>

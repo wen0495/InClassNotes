@@ -30,20 +30,19 @@ namespace WPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string idAsString = id.Text;
+            //string idAsString = id.Text;
             Student a = new Student();
-            a.SoonerID = Convert.ToInt32(idAsString);
+            a.SoonerID = Convert.ToInt32(id.Text);
             a.FirstName = name.Text;
             a.GPA = Convert.ToDouble(gpa.Text);
             Students.Add(a);
-            var futureDate = Convert.ToDateTime("1/15/2020");
-            //DateTime rightNow = DateTime.Now;
+            // var futureDate = Convert.ToDateTime("02/12/2018");
             DateTime studentDOB = Convert.ToDateTime(dob.Text);
-            var x = studentDOB.AddDays(50);
+            DateTime x = studentDOB.AddDays(50); // add 50 days to whatever the user input --> so that will deal with month changes or something by itself
             DateTime rightNow = DateTime.Now;
             var diff = rightNow - studentDOB;
 
-            output.Text = $"Hello, {a.FirstName} ({a.SoonerID})";
+            output.Text = $"Hello, {a.FirstName} ({a.SoonerID}), your gpa is {a.GPA}, and your date of birth is {studentDOB}";
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
