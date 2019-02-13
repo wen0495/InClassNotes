@@ -44,10 +44,9 @@ namespace Inclass0213
                 
                 foreach(var line in lines)
                 {
-                    txtReadFile.Text = line;
+                    txtReadFile.Text += line + "\n";
                 }
 
-                
             }
         }
     }
