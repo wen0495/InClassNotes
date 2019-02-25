@@ -12,7 +12,7 @@
         </Grid.Background>
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="txtbox" HorizontalAlignment="Left" Margin="685,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="187" Width="66"/>
+        <TextBlock x:Name="txtbox" HorizontalAlignment="Left" Margin="31,26,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="149" Width="255" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}"/>
 
     </Grid>
 </Window>
