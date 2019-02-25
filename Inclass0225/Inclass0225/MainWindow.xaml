@@ -7,9 +7,12 @@
         mc:Ignorable="d"
         Title="GOT Quote?" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2017/08/helen_sloan_-_hbo_photo_43_-_h_2017.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
-        <TextBlock HorizontalAlignment="Left" Margin="685,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="187" Width="66"/>
+        <TextBlock x:Name="txtbox" HorizontalAlignment="Left" Margin="685,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="187" Width="66"/>
 
     </Grid>
 </Window>
