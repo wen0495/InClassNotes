@@ -39,6 +39,9 @@ namespace Inclass0225
                     var content = response.Content.ReadAsStringAsync().Result;
                     HerokuQuote q = JsonConvert.DeserializeObject<HerokuQuote>(content);
 
+                    txtbox.Inlines.Add(new Italic(new Run($"{q.quote}")));
+                    txtbox.Inlines.Add(new Bold(new Run($"-{q.character}")));
+
                 }
             }
         }
