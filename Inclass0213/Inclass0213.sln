@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inclass0213", "Inclass0213\Inclass0213.csproj", "{A0907F8D-90E3-4A5F-BAB1-194AD84EBC10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inclass0213_ReadFiles", "Inclass0213\Inclass0213_ReadFiles.csproj", "{A0907F8D-90E3-4A5F-BAB1-194AD84EBC10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
